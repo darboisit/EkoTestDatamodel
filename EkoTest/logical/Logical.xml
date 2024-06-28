@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="68E104D7-FAEA-A522-CDCD-349C717F30BF" mainViewID="573EAAF4-E312-DBD1-CC5A-7F02DD998202">
+<createdBy>darbo</createdBy>
+<createdTime>2024-06-28 13:49:24 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>
