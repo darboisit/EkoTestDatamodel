@@ -70,7 +70,7 @@
 </IndexProxy>
 </indexProxies>
 <synonyms>
-<Synonym class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SynonymOraclev10g" name="StepRun" id="017AFA0E-DBAA-49C6-9B4B-B2A3FCF89C59">
+<Synonym class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SynonymOraclev10g" name="RunStep" id="017AFA0E-DBAA-49C6-9B4B-B2A3FCF89C59">
 <createdBy>darbo</createdBy>
 <createdTime>2024-07-20 13:05:24 UTC</createdTime>
 <ownerDesignName>EkoTest</ownerDesignName>

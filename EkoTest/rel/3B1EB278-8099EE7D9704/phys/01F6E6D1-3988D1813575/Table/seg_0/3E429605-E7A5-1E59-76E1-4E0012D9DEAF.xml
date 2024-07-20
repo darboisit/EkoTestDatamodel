@@ -54,7 +54,7 @@
 </IndexProxy>
 </indexProxies>
 <synonyms>
-<Synonym class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SynonymOraclev10g" name="Step" id="7508064E-56DE-E68A-CC3D-C4035AC194F3">
+<Synonym class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SynonymOraclev10g" name="TestStep" id="7508064E-56DE-E68A-CC3D-C4035AC194F3">
 <createdBy>darbo</createdBy>
 <createdTime>2024-07-20 13:05:10 UTC</createdTime>
 <ownerDesignName>EkoTest</ownerDesignName>
