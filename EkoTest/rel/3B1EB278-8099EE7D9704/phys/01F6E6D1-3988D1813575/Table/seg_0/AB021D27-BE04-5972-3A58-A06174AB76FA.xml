@@ -7,9 +7,10 @@
 <logging>YES</logging>
 <partitionedRowMovement>DISABLE</partitionedRowMovement>
 <temporaryChanged>false</temporaryChanged>
-<user>8302D07F-8ED5-253F-33DC-0D22863BEFAE</user>
+<user>11E53CE2-D779-5CA3-8F18-4724D526A590</user>
 <accessDriverType>oracle_loader</accessDriverType>
 <rejectLimit></rejectLimit>
+<storeAs>CLOB</storeAs>
 <columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
 <ColumnProxy name="Description" id="AD8E5CD4-9C24-76DC-009D-03DD3AE8BB2A">
 <createdBy>darbo</createdBy>
@@ -20,6 +21,8 @@
 <createdBy>darbo</createdBy>
 <createdTime>2024-07-20 12:57:38 UTC</createdTime>
 <ownerDesignName>EkoTest</ownerDesignName>
+<autoIncrementDDL>DEFAULT_CLAUSE</autoIncrementDDL>
+<notnullConstraintnameChanged>true</notnullConstraintnameChanged>
 </ColumnProxy>
 <ColumnProxy name="Status" id="C932265F-19CD-C43B-B32F-DF670DE88083">
 <createdBy>darbo</createdBy>

@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="StepRunIssue" directorySegmentName="seg_0" id="06ED14AA-38AC-D418-74F0-791E12E8A8AC">
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="RunStepIssue" directorySegmentName="seg_0" id="06ED14AA-38AC-D418-74F0-791E12E8A8AC">
 <createdBy>darbo</createdBy>
 <createdTime>2024-07-20 12:57:38 UTC</createdTime>
 <ownerDesignName>EkoTest</ownerDesignName>
@@ -7,16 +7,19 @@
 <logging>YES</logging>
 <partitionedRowMovement>DISABLE</partitionedRowMovement>
 <temporaryChanged>false</temporaryChanged>
-<user>8302D07F-8ED5-253F-33DC-0D22863BEFAE</user>
+<user>11E53CE2-D779-5CA3-8F18-4724D526A590</user>
 <accessDriverType>oracle_loader</accessDriverType>
 <rejectLimit></rejectLimit>
+<storeAs>CLOB</storeAs>
 <columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
-<ColumnProxy name="StepRunIssue" id="76B30A79-ADB3-7C54-0C58-BD28E98416CD">
+<ColumnProxy name="RunStepIssue" id="76B30A79-ADB3-7C54-0C58-BD28E98416CD">
 <createdBy>darbo</createdBy>
 <createdTime>2024-07-20 12:57:38 UTC</createdTime>
 <ownerDesignName>EkoTest</ownerDesignName>
+<autoIncrementDDL>DEFAULT_CLAUSE</autoIncrementDDL>
+<notnullConstraintnameChanged>true</notnullConstraintnameChanged>
 </ColumnProxy>
-<ColumnProxy name="StepRun" id="CECC1944-1DF2-0E74-680E-F9AC2BA219B4">
+<ColumnProxy name="RunStep" id="CECC1944-1DF2-0E74-680E-F9AC2BA219B4">
 <createdBy>darbo</createdBy>
 <createdTime>2024-07-20 12:57:38 UTC</createdTime>
 <ownerDesignName>EkoTest</ownerDesignName>
@@ -32,31 +35,45 @@
 <ownerDesignName>EkoTest</ownerDesignName>
 </ColumnProxy>
 </columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="RunStepIssue_RunStep_IDX" id="E93AAD9C-3AB7-E0FA-8D15-02D6F749C371">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 14:29:54 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<user>11E53CE2-D779-5CA3-8F18-4724D526A590</user>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="RunStepIssue_Issue_IDX" id="F2D5FD1D-F8F8-9E37-6B4B-A949253612D3">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 14:29:54 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<user>11E53CE2-D779-5CA3-8F18-4724D526A590</user>
+</IndexProxy>
+</indexProxies>
 <synonyms>
 <Synonym class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SynonymOraclev10g" name="StepRunIssue" id="11EC20E7-7098-70AC-36D2-5A01D177A6C3">
 <createdBy>darbo</createdBy>
 <createdTime>2024-07-20 13:05:38 UTC</createdTime>
 <ownerDesignName>EkoTest</ownerDesignName>
-<objectName>StepRunIssue</objectName>
+<objectName>RunStepIssue</objectName>
 <objectUser>11E53CE2-D779-5CA3-8F18-4724D526A590</objectUser>
 <user>8302D07F-8ED5-253F-33DC-0D22863BEFAE</user>
 <referredObjectID>06ED14AA-38AC-D418-74F0-791E12E8A8AC</referredObjectID>
 </Synonym>
 </synonyms>
 <foreignKeys>
-<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="StepRunIssue_Issue_FK" id="04743887-E2FA-54F4-53EF-382DC414B631">
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RunStepIssue_Issue_FK" id="04743887-E2FA-54F4-53EF-382DC414B631">
 <createdBy>darbo</createdBy>
 <createdTime>2024-07-20 12:57:38 UTC</createdTime>
 <ownerDesignName>EkoTest</ownerDesignName>
 </ForeignKey>
-<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="StepRunIssue_StepRun_FK" id="38A0FB7F-2914-656D-C2BC-EB0BBA80290D">
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="RunStepIssue_StepRun_FK" id="38A0FB7F-2914-656D-C2BC-EB0BBA80290D">
 <createdBy>darbo</createdBy>
 <createdTime>2024-07-20 12:57:38 UTC</createdTime>
 <ownerDesignName>EkoTest</ownerDesignName>
 </ForeignKey>
 </foreignKeys>
 <primaryKeys>
-<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="StepRunIssue_PK" id="822EF8D8-60CA-B8F5-3F95-944C8F1E274F">
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="RunStepIssue_PK" id="822EF8D8-60CA-B8F5-3F95-944C8F1E274F">
 <createdBy>darbo</createdBy>
 <createdTime>2024-07-20 12:57:38 UTC</createdTime>
 <ownerDesignName>EkoTest</ownerDesignName>

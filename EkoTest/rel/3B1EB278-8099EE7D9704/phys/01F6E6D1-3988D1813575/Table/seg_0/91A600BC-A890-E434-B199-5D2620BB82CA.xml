@@ -7,14 +7,17 @@
 <logging>YES</logging>
 <partitionedRowMovement>DISABLE</partitionedRowMovement>
 <temporaryChanged>false</temporaryChanged>
-<user>8302D07F-8ED5-253F-33DC-0D22863BEFAE</user>
+<user>11E53CE2-D779-5CA3-8F18-4724D526A590</user>
 <accessDriverType>oracle_loader</accessDriverType>
 <rejectLimit></rejectLimit>
+<storeAs>CLOB</storeAs>
 <columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
 <ColumnProxy name="TestCase" id="40F742FF-BFE3-6587-CE5B-6749FFCCD9FB">
 <createdBy>darbo</createdBy>
 <createdTime>2024-07-20 12:57:38 UTC</createdTime>
 <ownerDesignName>EkoTest</ownerDesignName>
+<autoIncrementDDL>DEFAULT_CLAUSE</autoIncrementDDL>
+<notnullConstraintnameChanged>true</notnullConstraintnameChanged>
 </ColumnProxy>
 <ColumnProxy name="Title" id="9A2E86F8-3714-79F1-C940-A4AA045E1BAF">
 <createdBy>darbo</createdBy>
@@ -43,6 +46,14 @@
 <defaultValue>0</defaultValue>
 </ColumnProxy>
 </columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="TestCase_Folder_IDX" id="0905A1C2-1AB0-3245-A906-71B688F5AF5A">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 14:29:54 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<user>11E53CE2-D779-5CA3-8F18-4724D526A590</user>
+</IndexProxy>
+</indexProxies>
 <synonyms>
 <Synonym class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SynonymOraclev10g" name="TestCase" id="D8E6CC89-5462-F261-ECC0-0C36379ADC35">
 <createdBy>darbo</createdBy>

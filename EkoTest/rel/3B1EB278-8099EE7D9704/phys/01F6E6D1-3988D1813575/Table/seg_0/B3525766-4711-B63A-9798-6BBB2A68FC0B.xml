@@ -7,9 +7,10 @@
 <logging>YES</logging>
 <partitionedRowMovement>DISABLE</partitionedRowMovement>
 <temporaryChanged>false</temporaryChanged>
-<user>8302D07F-8ED5-253F-33DC-0D22863BEFAE</user>
+<user>11E53CE2-D779-5CA3-8F18-4724D526A590</user>
 <accessDriverType>oracle_loader</accessDriverType>
 <rejectLimit></rejectLimit>
+<storeAs>CLOB</storeAs>
 <columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
 <ColumnProxy name="Project" id="2AF5D8C7-A825-0B75-BFEF-72F2BF2BE65A">
 <createdBy>darbo</createdBy>
@@ -45,19 +46,35 @@
 <createdBy>darbo</createdBy>
 <createdTime>2024-07-20 12:57:38 UTC</createdTime>
 <ownerDesignName>EkoTest</ownerDesignName>
+<autoIncrementDDL>DEFAULT_CLAUSE</autoIncrementDDL>
+<notnullConstraintnameChanged>true</notnullConstraintnameChanged>
 </ColumnProxy>
 <ColumnProxy name="Milestone" id="E5632387-EC24-84DF-F383-66F6FA424688">
 <createdBy>darbo</createdBy>
 <createdTime>2024-07-20 12:57:38 UTC</createdTime>
 <ownerDesignName>EkoTest</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="State" id="F4B1A4F2-5AFF-4567-DF4B-70DA5C044DC5">
+<ColumnProxy name="Status" id="F4B1A4F2-5AFF-4567-DF4B-70DA5C044DC5">
 <createdBy>darbo</createdBy>
 <createdTime>2024-07-20 12:57:38 UTC</createdTime>
 <ownerDesignName>EkoTest</ownerDesignName>
 <defaultValue>0</defaultValue>
 </ColumnProxy>
 </columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Run_Project_IDX" id="0FD9993E-0898-603A-35F8-1CA9B0C7A3F4">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 14:29:54 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<user>11E53CE2-D779-5CA3-8F18-4724D526A590</user>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Run_Milestone_IDX" id="7CD4904C-BD5D-4172-E02B-B21D55D5302F">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 14:29:54 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<user>11E53CE2-D779-5CA3-8F18-4724D526A590</user>
+</IndexProxy>
+</indexProxies>
 <synonyms>
 <Synonym class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SynonymOraclev10g" name="Run" id="3C5CDBD8-A04B-0BDC-23B2-C3F1B9D7F284">
 <createdBy>darbo</createdBy>

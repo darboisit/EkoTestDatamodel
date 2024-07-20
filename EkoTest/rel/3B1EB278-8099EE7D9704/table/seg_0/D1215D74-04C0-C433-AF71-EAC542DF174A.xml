@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D1215D74-04C0-C433-AF71-EAC542DF174A" schemaObject="8311EF1B-D305-0AB1-B6C1-F1FDDF41FDFB" name="Attachment">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D1215D74-04C0-C433-AF71-EAC542DF174A" schemaObject="8311EF1B-D305-0AB1-B6C1-F1FDDF41FDFB" name="Attach">
 <createdBy>darbo</createdBy>
 <createdTime>2024-07-20 10:41:25 UTC</createdTime>
 <ownerDesignName>EkoTest</ownerDesignName>
@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Attachment" id="8CEA65C5-01BF-47AE-3483-7685AA06F177">
+<Column name="Attach" id="8CEA65C5-01BF-47AE-3483-7685AA06F177">
 <createdBy>darbo</createdBy>
 <createdTime>2024-07-20 10:42:07 UTC</createdTime>
 <commentInRDBMS><![CDATA[TestCaseAttachment unique identifier]]></commentInRDBMS>
@@ -36,7 +36,7 @@
 <colAssociation fkAssociation="C8161202-CBDA-5164-6F2C-51C50E6E2164" referredColumn="40F742FF-BFE3-6587-CE5B-6749FFCCD9FB"/>
 </associations>
 </Column>
-<Column name="Step" id="1372A5ED-F4A0-2CC3-63EE-F3F0B1DD90D3">
+<Column name="TestStep" id="1372A5ED-F4A0-2CC3-63EE-F3F0B1DD90D3">
 <createdBy>darbo</createdBy>
 <createdTime>2024-07-20 11:02:33 UTC</createdTime>
 <ownerDesignName>EkoTest</ownerDesignName>
@@ -51,7 +51,7 @@
 <colAssociation fkAssociation="46B1E906-2163-9549-1ABB-08711DD7D225" referredColumn="B29C9A97-65E2-1100-C7E8-691EEC0C2B8D"/>
 </associations>
 </Column>
-<Column name="StepRun" id="20D80DEB-8E72-DF44-A1E9-B0AD41940DE5">
+<Column name="RunStep" id="20D80DEB-8E72-DF44-A1E9-B0AD41940DE5">
 <createdBy>darbo</createdBy>
 <createdTime>2024-07-20 11:08:06 UTC</createdTime>
 <ownerDesignName>EkoTest</ownerDesignName>
@@ -111,21 +111,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="StepRunAttachment" id="62321907-811A-1609-6B8C-2DC2F9FB88FE">
-<createdBy>darbo</createdBy>
-<createdTime>2024-07-20 11:03:06 UTC</createdTime>
-<ownerDesignName>EkoTest</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<domain>4497B390-5197-D2D7-D2AE-68E4CD2F1320</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="926DB778-F6A3-FD27-027C-3F4ED233184D" name="Attachment_PK">
+<ind_PK_UK id="926DB778-F6A3-FD27-027C-3F4ED233184D" name="Attach_PK">
 <createdBy>darbo</createdBy>
 <createdTime>2024-07-20 10:42:07 UTC</createdTime>
 <ownerDesignName>EkoTest</ownerDesignName>
@@ -136,7 +124,34 @@
 <colUsage columnID="8CEA65C5-01BF-47AE-3483-7685AA06F177"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="BF53B679-1617-A3B8-2D87-F9D44A4DD53E" name="Attachment_TestCase_FK">
+<ind_PK_UK id="4A51D321-6313-278D-640D-D0A845D7A1CA" name="Attach_TestCase_IDX">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 14:29:54 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D181B90-F8FF-F62B-B879-18B7B8C892A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="70CA08F8-3D33-8FB6-96E9-C75617DB8C28" name="Attach_TestStep_IDX">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 14:29:54 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1372A5ED-F4A0-2CC3-63EE-F3F0B1DD90D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="185D6833-B052-8521-F17E-CC31CA6EC0CB" name="Attach_RunStep_IDX">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 14:29:54 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20D80DEB-8E72-DF44-A1E9-B0AD41940DE5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BF53B679-1617-A3B8-2D87-F9D44A4DD53E" name="Attach_TestCase_FK">
 <createdBy>darbo</createdBy>
 <createdTime>2024-07-20 10:42:12 UTC</createdTime>
 <ownerDesignName>EkoTest</ownerDesignName>
@@ -146,7 +161,7 @@
 <colUsage columnID="1D181B90-F8FF-F62B-B879-18B7B8C892A2"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="D843D93D-D02B-120A-399F-D487CC38C20E" name="Attachment_Step_FK">
+<ind_PK_UK id="D843D93D-D02B-120A-399F-D487CC38C20E" name="Attach_TestStep_FK">
 <createdBy>darbo</createdBy>
 <createdTime>2024-07-20 11:02:33 UTC</createdTime>
 <ownerDesignName>EkoTest</ownerDesignName>
@@ -156,7 +171,7 @@
 <colUsage columnID="1372A5ED-F4A0-2CC3-63EE-F3F0B1DD90D3"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="04D367F7-3726-BCA6-34C5-442AB0E69658" name="Attachment_StepRun_FK">
+<ind_PK_UK id="04D367F7-3726-BCA6-34C5-442AB0E69658" name="Attach_RunStep_FK">
 <createdBy>darbo</createdBy>
 <createdTime>2024-07-20 11:08:06 UTC</createdTime>
 <ownerDesignName>EkoTest</ownerDesignName>

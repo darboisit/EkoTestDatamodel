@@ -4,7 +4,7 @@
 <createdTime>2024-07-20 10:15:38 UTC</createdTime>
 <ownerDesignName>EkoTest</ownerDesignName>
 <referredTableLongName>EKOTEST.Folder</referredTableLongName>
-<deleteRule>NO ACTION</deleteRule>
+<deleteRule>CASCADE</deleteRule>
 <referredTableID>84192687-C110-C212-957E-F98AAD2D0DA1</referredTableID>
 <keyObject>424B6406-5A09-6816-2E63-6314150DA5E3</keyObject>
 <referredKeyID>424B6406-5A09-6816-2E63-6314150DA5E3</referredKeyID>

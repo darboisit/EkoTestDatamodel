@@ -29,7 +29,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <dataTypePrecision>28</dataTypePrecision>
 <domain>4497B390-5197-D2D7-D2AE-68E4CD2F1320</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,28,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -107,6 +107,24 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="6D944ACB-C49E-3278-D1D3-F120D44EC353"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F01B5124-2D4C-2A0A-82E2-A162D487473E" name="Milestone_Project_IDX">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 14:29:54 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="81F5BE6E-95CE-E5F7-4482-E010A6A0434A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3AA5A9B9-4BE1-F15C-11DE-E9FAD4BE7BF7" name="Milestone_MilestoneType_IDX">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 14:29:54 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF84BF5E-924B-F364-87C0-4ED0862C4F47"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="DA47E7A0-338C-06CD-AFC1-D54045F9D152" name="Milestone_Project_FK">

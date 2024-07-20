@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3E429605-E7A5-1E59-76E1-4E0012D9DEAF" schemaObject="8311EF1B-D305-0AB1-B6C1-F1FDDF41FDFB" name="Step">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3E429605-E7A5-1E59-76E1-4E0012D9DEAF" schemaObject="8311EF1B-D305-0AB1-B6C1-F1FDDF41FDFB" name="TestStep">
 <createdBy>darbo</createdBy>
 <createdTime>2024-07-20 10:50:42 UTC</createdTime>
 <ownerDesignName>EkoTest</ownerDesignName>
@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Step" id="B29C9A97-65E2-1100-C7E8-691EEC0C2B8D">
+<Column name="TestStep" id="B29C9A97-65E2-1100-C7E8-691EEC0C2B8D">
 <createdBy>darbo</createdBy>
 <createdTime>2024-07-20 10:51:41 UTC</createdTime>
 <commentInRDBMS><![CDATA[Stpe unique identifer]]></commentInRDBMS>
@@ -84,7 +84,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="14BA30E7-C627-6164-CAE7-913044005DD1" name="Step_PK">
+<ind_PK_UK id="14BA30E7-C627-6164-CAE7-913044005DD1" name="TestStep_PK">
 <createdBy>darbo</createdBy>
 <createdTime>2024-07-20 10:51:41 UTC</createdTime>
 <ownerDesignName>EkoTest</ownerDesignName>
@@ -95,7 +95,16 @@
 <colUsage columnID="B29C9A97-65E2-1100-C7E8-691EEC0C2B8D"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="107B0DD1-5826-8D21-5E60-A0417AE3FA69" name="Step_TestCase_FK">
+<ind_PK_UK id="C61BB5FB-9847-8763-9FDF-A73997687F65" name="TestStep_TestCase_IDX">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 14:29:54 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6AD50A5A-61BC-2D35-7619-0B7FB2299DAB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="107B0DD1-5826-8D21-5E60-A0417AE3FA69" name="TestStep_TestCase_FK">
 <createdBy>darbo</createdBy>
 <createdTime>2024-07-20 10:54:44 UTC</createdTime>
 <ownerDesignName>EkoTest</ownerDesignName>

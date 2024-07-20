@@ -104,6 +104,15 @@
 <colUsage columnID="40F742FF-BFE3-6587-CE5B-6749FFCCD9FB"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="0905A1C2-1AB0-3245-A906-71B688F5AF5A" name="TestCase_Folder_IDX">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 14:29:54 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A4A56086-A042-8B01-6FD0-E5612046852C"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="5C1D4917-FFC0-FDD0-B86C-1DCB55F39A58" name="TestCase_Folder_FK">
 <createdBy>darbo</createdBy>
 <createdTime>2024-07-20 10:15:38 UTC</createdTime>

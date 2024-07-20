@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="27D39DF0-12D8-18E7-8E8E-2ECD3DB9AAF4" schemaObject="8311EF1B-D305-0AB1-B6C1-F1FDDF41FDFB" name="Log">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="27D39DF0-12D8-18E7-8E8E-2ECD3DB9AAF4" schemaObject="8311EF1B-D305-0AB1-B6C1-F1FDDF41FDFB" name="Timeline">
 <createdBy>darbo</createdBy>
 <createdTime>2024-07-20 09:43:20 UTC</createdTime>
 <ownerDesignName>EkoTest</ownerDesignName>
@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Log" id="C6FF506E-1D7C-AD19-D3C8-4A82A6DAAA70">
+<Column name="Timeline" id="C6FF506E-1D7C-AD19-D3C8-4A82A6DAAA70">
 <createdBy>darbo</createdBy>
 <createdTime>2024-07-20 09:44:40 UTC</createdTime>
 <commentInRDBMS><![CDATA[Log  unique identifier]]></commentInRDBMS>
@@ -30,7 +30,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <dataTypePrecision>28</dataTypePrecision>
 <domain>4497B390-5197-D2D7-D2AE-68E4CD2F1320</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,28,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -108,9 +108,24 @@
 <colAssociation fkAssociation="02C4EE13-61FD-7548-C9A9-3A9D8F6C712D" referredColumn="AF77E0AD-C169-4AC1-2B63-D1AC427F46F4"/>
 </associations>
 </Column>
+<Column name="RunStep" id="589FE193-090A-59EF-59BE-5EC4DA128FE2">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 14:09:10 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>4497B390-5197-D2D7-D2AE-68E4CD2F1320</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D5FC7C6C-B818-AB14-0ECB-80396B277967" referredColumn="53D2BDA1-F5DF-A133-C0FF-3CE1FDB375E8"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="1DB722E8-CD15-0079-D32D-475ECAC4E44D" name="Log_PK">
+<ind_PK_UK id="1DB722E8-CD15-0079-D32D-475ECAC4E44D" name="Timeline_PK">
 <createdBy>darbo</createdBy>
 <createdTime>2024-07-20 09:44:40 UTC</createdTime>
 <ownerDesignName>EkoTest</ownerDesignName>
@@ -121,7 +136,61 @@
 <colUsage columnID="C6FF506E-1D7C-AD19-D3C8-4A82A6DAAA70"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="1AAD8034-AD8D-8570-46E4-0D0D10674B78" name="Log_Project_FK">
+<ind_PK_UK id="A7FDFD73-B9DC-AA83-4B67-5FFB29152117" name="Timeline_Project_IDX">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 14:29:54 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="763A4599-9A21-8FF9-D6A3-E95D8684520C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B464A35A-D3D5-E37E-7240-82C2E5846DA8" name="Timeline_Milestone_IDX">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 14:29:54 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB60BD8A-1FA2-9218-EA4F-3DF78AA199C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0384345F-683F-2DED-5153-447A9AFD20E0" name="Timeline_Run_IDX">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 14:29:54 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60934125-D7F0-E0DD-696E-9EB2CD29DD3D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="88287A2A-518E-C5EB-2C9D-2C453A3F9A95" name="Timeline_TesCaseRun_IDX">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 14:29:54 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="27BD3BA2-461B-4A63-F436-F1A8727F8FD6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C79FA368-BD4C-0B8A-19FF-71658B7A140D" name="Timeline_Issue_IDX">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 14:29:54 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DAF3F41B-D9F3-EC42-795E-C3C9D716A7B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="40C86544-F6BD-76ED-4C4B-B032CB2533EE" name="Timeline_RunStep_IDX">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 14:29:54 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="589FE193-090A-59EF-59BE-5EC4DA128FE2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1AAD8034-AD8D-8570-46E4-0D0D10674B78" name="Timeline_Project_FK">
 <createdBy>darbo</createdBy>
 <createdTime>2024-07-20 09:49:52 UTC</createdTime>
 <ownerDesignName>EkoTest</ownerDesignName>
@@ -131,7 +200,7 @@
 <colUsage columnID="763A4599-9A21-8FF9-D6A3-E95D8684520C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E05A2809-4B39-0D14-7E81-4971D57D00CD" name="Log_Milestone_FK">
+<ind_PK_UK id="E05A2809-4B39-0D14-7E81-4971D57D00CD" name="Timeline_Milestone_FK">
 <createdBy>darbo</createdBy>
 <createdTime>2024-07-20 09:50:09 UTC</createdTime>
 <ownerDesignName>EkoTest</ownerDesignName>
@@ -141,7 +210,7 @@
 <colUsage columnID="EB60BD8A-1FA2-9218-EA4F-3DF78AA199C1"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="EE5431D3-C266-8265-2AB3-1FF5C8AA1B2F" name="Log_Run_FK">
+<ind_PK_UK id="EE5431D3-C266-8265-2AB3-1FF5C8AA1B2F" name="Timeline_Run_FK">
 <createdBy>darbo</createdBy>
 <createdTime>2024-07-20 09:50:25 UTC</createdTime>
 <ownerDesignName>EkoTest</ownerDesignName>
@@ -151,7 +220,7 @@
 <colUsage columnID="60934125-D7F0-E0DD-696E-9EB2CD29DD3D"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="3FF608D6-816C-DFA5-EDA7-3299442BF2B5" name="Log_TestCaseRun_FK">
+<ind_PK_UK id="3FF608D6-816C-DFA5-EDA7-3299442BF2B5" name="Timeline_TestCaseRun_FK">
 <createdBy>darbo</createdBy>
 <createdTime>2024-07-20 11:19:04 UTC</createdTime>
 <ownerDesignName>EkoTest</ownerDesignName>
@@ -161,7 +230,7 @@
 <colUsage columnID="27BD3BA2-461B-4A63-F436-F1A8727F8FD6"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="881D65FB-2EAC-F08D-B545-20E701A236F9" name="Log_Issue_FK">
+<ind_PK_UK id="881D65FB-2EAC-F08D-B545-20E701A236F9" name="Timeline_Issue_FK">
 <createdBy>darbo</createdBy>
 <createdTime>2024-07-20 11:47:28 UTC</createdTime>
 <ownerDesignName>EkoTest</ownerDesignName>
@@ -169,6 +238,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="DAF3F41B-D9F3-EC42-795E-C3C9D716A7B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9EEBC56E-2FAB-7F92-A8DD-AA6617666E13" name="Timeline_RunStep_FK">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 14:09:10 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="589FE193-090A-59EF-59BE-5EC4DA128FE2"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -29,7 +29,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <dataTypePrecision>28</dataTypePrecision>
 <domain>4497B390-5197-D2D7-D2AE-68E4CD2F1320</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,28,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -85,6 +85,24 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="040C325F-7CF0-A2BA-C458-FDC921EADDD3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F989AB32-3D50-89B5-5F91-50B82366331E" name="Folder_ParentFolder_IDX">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 14:29:54 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46767FE2-02DA-E5E9-9CF1-1DCB315E5D5A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B085C0D3-BD23-B157-9D9D-E536B0CFD595" name="Folder_Project_IDX">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 14:29:54 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07E25914-4016-A68C-45A8-7EE9A669A786"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="E6EDD42B-4CFB-F7C7-6B39-064115188D92" name="Folder_ParentFolder_FK">

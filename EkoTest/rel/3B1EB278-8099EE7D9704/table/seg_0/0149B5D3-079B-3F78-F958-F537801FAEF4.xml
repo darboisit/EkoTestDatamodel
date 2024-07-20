@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0149B5D3-079B-3F78-F958-F537801FAEF4" schemaObject="8311EF1B-D305-0AB1-B6C1-F1FDDF41FDFB" name="StepRun">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0149B5D3-079B-3F78-F958-F537801FAEF4" schemaObject="8311EF1B-D305-0AB1-B6C1-F1FDDF41FDFB" name="RunStep">
 <createdBy>darbo</createdBy>
 <createdTime>2024-07-20 10:55:05 UTC</createdTime>
 <ownerDesignName>EkoTest</ownerDesignName>
@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="StepRun" id="53D2BDA1-F5DF-A133-C0FF-3CE1FDB375E8">
+<Column name="RunStep" id="53D2BDA1-F5DF-A133-C0FF-3CE1FDB375E8">
 <createdBy>darbo</createdBy>
 <createdTime>2024-07-20 10:56:42 UTC</createdTime>
 <commentInRDBMS><![CDATA[SteRun unique identifer]]></commentInRDBMS>
@@ -35,7 +35,7 @@
 <colAssociation fkAssociation="01545A98-C5EB-71D8-8FC2-0BEC62D56EB0" referredColumn="0CECCAC8-CB55-CE7B-E3A8-9C90347B4B88"/>
 </associations>
 </Column>
-<Column name="Step" id="DD6D8837-32DA-592C-F79F-94AB2D00D87D">
+<Column name="TestStep" id="DD6D8837-32DA-592C-F79F-94AB2D00D87D">
 <createdBy>darbo</createdBy>
 <createdTime>2024-07-20 11:09:57 UTC</createdTime>
 <ownerDesignName>EkoTest</ownerDesignName>
@@ -117,7 +117,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="4A5DDFF9-68E7-7547-30AF-273BB257E3F8" name="StepRun_PK">
+<ind_PK_UK id="4A5DDFF9-68E7-7547-30AF-273BB257E3F8" name="RunStep_PK">
 <createdBy>darbo</createdBy>
 <createdTime>2024-07-20 10:56:42 UTC</createdTime>
 <ownerDesignName>EkoTest</ownerDesignName>
@@ -128,7 +128,25 @@
 <colUsage columnID="53D2BDA1-F5DF-A133-C0FF-3CE1FDB375E8"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="8AAD34AB-35B5-B057-6A48-8A641E92981A" name="StepRun_TestCaseRun_FK">
+<ind_PK_UK id="328D8902-13F9-0934-F3A0-4ACDDD052B30" name="RunStep_TestCaseRun_IDX">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 14:29:54 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E64A67D-F13D-A776-1594-4561C8586F82"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="697A6FA0-D0AC-A114-9020-AE612C2AA3E2" name="RunStep_TestStep_IDX">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 14:29:54 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD6D8837-32DA-592C-F79F-94AB2D00D87D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8AAD34AB-35B5-B057-6A48-8A641E92981A" name="RunStep_TestCaseRun_FK">
 <createdBy>darbo</createdBy>
 <createdTime>2024-07-20 11:08:30 UTC</createdTime>
 <ownerDesignName>EkoTest</ownerDesignName>
@@ -138,7 +156,7 @@
 <colUsage columnID="6E64A67D-F13D-A776-1594-4561C8586F82"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="561771A5-588E-5EC1-8851-6CC46788C981" name="StepRun_Step_FK">
+<ind_PK_UK id="561771A5-588E-5EC1-8851-6CC46788C981" name="RunStep_TestStep_FK">
 <createdBy>darbo</createdBy>
 <createdTime>2024-07-20 11:09:57 UTC</createdTime>
 <ownerDesignName>EkoTest</ownerDesignName>

@@ -4,7 +4,7 @@
 <createdTime>2024-07-20 10:24:49 UTC</createdTime>
 <ownerDesignName>EkoTest</ownerDesignName>
 <referredTableLongName>EKOTEST.Milestone</referredTableLongName>
-<deleteRule>NO ACTION</deleteRule>
+<deleteRule>CASCADE</deleteRule>
 <referredTableID>959A0D44-54AA-A1E1-5C2F-8B380216706A</referredTableID>
 <keyObject>DE3A1E64-038C-8AF3-FAB9-F066601E0FAF</keyObject>
 <referredKeyID>DE3A1E64-038C-8AF3-FAB9-F066601E0FAF</referredKeyID>

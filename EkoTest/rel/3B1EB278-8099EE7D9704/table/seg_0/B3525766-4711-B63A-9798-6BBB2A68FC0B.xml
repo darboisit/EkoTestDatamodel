@@ -28,7 +28,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <dataTypePrecision>28</dataTypePrecision>
 <domain>4497B390-5197-D2D7-D2AE-68E4CD2F1320</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,28,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -95,10 +95,10 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="State" id="F4B1A4F2-5AFF-4567-DF4B-70DA5C044DC5">
+<Column name="Status" id="F4B1A4F2-5AFF-4567-DF4B-70DA5C044DC5">
 <createdBy>darbo</createdBy>
 <createdTime>2024-07-20 10:27:34 UTC</createdTime>
-<commentInRDBMS><![CDATA[State of the run, from new to done]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[Status of the run, from new to done]]></commentInRDBMS>
 <ownerDesignName>EkoTest</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>0</use>
@@ -137,6 +137,24 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="E1DB7713-BF61-5BD4-7606-3F44C01C941B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0FD9993E-0898-603A-35F8-1CA9B0C7A3F4" name="Run_Project_IDX">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 14:29:54 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2AF5D8C7-A825-0B75-BFEF-72F2BF2BE65A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7CD4904C-BD5D-4172-E02B-B21D55D5302F" name="Run_Milestone_IDX">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 14:29:54 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5632387-EC24-84DF-F383-66F6FA424688"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="DFFBF3DB-ADEA-C836-98B5-82BB7CD35F08" name="Run_Project_FK">

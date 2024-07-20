@@ -1,10 +1,10 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6FEAFB0D-E739-7397-6103-2DD793D572C1" containerWithKeyObject="27D39DF0-12D8-18E7-8E8E-2ECD3DB9AAF4" localFKIndex="EE5431D3-C266-8265-2AB3-1FF5C8AA1B2F" name="Log_Run_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6FEAFB0D-E739-7397-6103-2DD793D572C1" containerWithKeyObject="27D39DF0-12D8-18E7-8E8E-2ECD3DB9AAF4" localFKIndex="EE5431D3-C266-8265-2AB3-1FF5C8AA1B2F" name="Timeline_Run_FK">
 <createdBy>darbo</createdBy>
 <createdTime>2024-07-20 09:50:25 UTC</createdTime>
 <ownerDesignName>EkoTest</ownerDesignName>
 <referredTableLongName>EKOTEST.Run</referredTableLongName>
-<deleteRule>NO ACTION</deleteRule>
+<deleteRule>CASCADE</deleteRule>
 <referredTableID>B3525766-4711-B63A-9798-6BBB2A68FC0B</referredTableID>
 <keyObject>68F430E2-2E5A-C448-17D7-7786CD706D05</keyObject>
 <referredKeyID>68F430E2-2E5A-C448-17D7-7786CD706D05</referredKeyID>

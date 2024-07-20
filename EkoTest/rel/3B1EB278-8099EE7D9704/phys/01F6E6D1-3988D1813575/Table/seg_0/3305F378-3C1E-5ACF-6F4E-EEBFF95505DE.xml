@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="Notification" directorySegmentName="seg_0" id="3305F378-3C1E-5ACF-6F4E-EEBFF95505DE">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 14:13:24 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<schemaObject>8311EF1B-D305-0AB1-B6C1-F1FDDF41FDFB</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<user>11E53CE2-D779-5CA3-8F18-4724D526A590</user>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<storeAs>CLOB</storeAs>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Text" id="45FBEA7E-90E4-3DCE-C638-841E913FFC15">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 14:14:27 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Timeline" id="9DEE0BB7-3DCF-6A9E-B4E4-DEA380D3E1D7">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 14:16:16 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Notification" id="DDF9BD99-05D5-C1C2-5996-749D9A06CCBB">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 14:14:27 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<autoIncrementDDL>DEFAULT_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="AssignedTo" id="E93937FD-D591-7914-2BE7-34EF9B90A0A4">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 14:15:29 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ReadDateTime" id="F21A9364-E672-4B1C-0724-C4724150D9CB">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 14:16:00 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Notification_Timeline_IDX" id="F236FB73-561C-4179-FE7A-5AF92ADFE836">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 14:29:54 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<user>11E53CE2-D779-5CA3-8F18-4724D526A590</user>
+</IndexProxy>
+</indexProxies>
+<synonyms>
+<Synonym class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SynonymOraclev10g" name="Notification" id="8D17D157-1C3C-8F19-7E36-872FC9C36CEE">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 14:25:17 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<objectName>Notification</objectName>
+<objectUser>11E53CE2-D779-5CA3-8F18-4724D526A590</objectUser>
+<user>8302D07F-8ED5-253F-33DC-0D22863BEFAE</user>
+<referredObjectID>3305F378-3C1E-5ACF-6F4E-EEBFF95505DE</referredObjectID>
+</Synonym>
+</synonyms>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Notification_Timeline_FK" id="34E8D219-6F9D-F28F-3CD9-A14A8E5FFFF2">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 14:16:16 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Notification_PK" id="78D1E560-BFCF-099C-6B1C-CA4ED9D03C6D">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 14:14:27 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

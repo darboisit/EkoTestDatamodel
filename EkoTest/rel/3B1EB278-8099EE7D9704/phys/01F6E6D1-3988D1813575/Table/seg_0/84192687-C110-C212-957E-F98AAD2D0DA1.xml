@@ -7,7 +7,7 @@
 <logging>YES</logging>
 <partitionedRowMovement>DISABLE</partitionedRowMovement>
 <temporaryChanged>false</temporaryChanged>
-<user>8302D07F-8ED5-253F-33DC-0D22863BEFAE</user>
+<user>11E53CE2-D779-5CA3-8F18-4724D526A590</user>
 <accessDriverType>oracle_loader</accessDriverType>
 <rejectLimit></rejectLimit>
 <storeAs>CLOB</storeAs>
@@ -16,6 +16,8 @@
 <createdBy>darbo</createdBy>
 <createdTime>2024-07-20 12:57:38 UTC</createdTime>
 <ownerDesignName>EkoTest</ownerDesignName>
+<autoIncrementDDL>DEFAULT_CLAUSE</autoIncrementDDL>
+<notnullConstraintnameChanged>true</notnullConstraintnameChanged>
 </ColumnProxy>
 <ColumnProxy name="Project" id="07E25914-4016-A68C-45A8-7EE9A669A786">
 <createdBy>darbo</createdBy>
@@ -38,6 +40,20 @@
 <ownerDesignName>EkoTest</ownerDesignName>
 </ColumnProxy>
 </columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Folder_Project_IDX" id="B085C0D3-BD23-B157-9D9D-E536B0CFD595">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 14:29:54 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<user>11E53CE2-D779-5CA3-8F18-4724D526A590</user>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Folder_ParentFolder_IDX" id="F989AB32-3D50-89B5-5F91-50B82366331E">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 14:29:54 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<user>11E53CE2-D779-5CA3-8F18-4724D526A590</user>
+</IndexProxy>
+</indexProxies>
 <synonyms>
 <Synonym class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SynonymOraclev10g" name="Folder" id="0DA2CB33-ADAD-9D3C-9885-C7EAE54ADE24">
 <createdBy>darbo</createdBy>
