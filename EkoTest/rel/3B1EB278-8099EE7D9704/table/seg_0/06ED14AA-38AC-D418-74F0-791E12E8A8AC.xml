@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="06ED14AA-38AC-D418-74F0-791E12E8A8AC" schemaObject="8311EF1B-D305-0AB1-B6C1-F1FDDF41FDFB" name="StepRunIssue">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 11:11:46 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<ordsAlias>table_19</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="StepRunIssue" id="76B30A79-ADB3-7C54-0C58-BD28E98416CD">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 11:12:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[StepRunIssue unique identifier]]></commentInRDBMS>
+<ownerDesignName>EkoTest</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>4497B390-5197-D2D7-D2AE-68E4CD2F1320</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="StepRun" id="CECC1944-1DF2-0E74-680E-F9AC2BA219B4">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 11:12:22 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>4497B390-5197-D2D7-D2AE-68E4CD2F1320</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3DA94183-9FAD-AFAF-CFFA-28233229EBA7" referredColumn="53D2BDA1-F5DF-A133-C0FF-3CE1FDB375E8"/>
+</associations>
+</Column>
+<Column name="ExecutionDate" id="FA8D5488-168B-B7C3-7CBD-E2EACDAFEEFB">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 11:14:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[Datetime the step was executed]]></commentInRDBMS>
+<ownerDesignName>EkoTest</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<domain>F43B1672-2A5C-921B-1C30-2B3C9F109A54</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Issue" id="EC45EA2D-FE28-188A-9A4B-DA9668832610">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 11:12:26 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>4497B390-5197-D2D7-D2AE-68E4CD2F1320</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="25DCB4C0-7D3C-2872-718E-F86B60B59418" referredColumn="AF77E0AD-C169-4AC1-2B63-D1AC427F46F4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="822EF8D8-60CA-B8F5-3F95-944C8F1E274F" name="StepRunIssue_PK">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 11:12:18 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="76B30A79-ADB3-7C54-0C58-BD28E98416CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="38A0FB7F-2914-656D-C2BC-EB0BBA80290D" name="StepRunIssue_StepRun_FK">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 11:12:22 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CECC1944-1DF2-0E74-680E-F9AC2BA219B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="04743887-E2FA-54F4-53EF-382DC414B631" name="StepRunIssue_Issue_FK">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 11:12:26 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC45EA2D-FE28-188A-9A4B-DA9668832610"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="84192687-C110-C212-957E-F98AAD2D0DA1" schemaObject="8311EF1B-D305-0AB1-B6C1-F1FDDF41FDFB" name="Folder">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 09:53:18 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Folder" id="040C325F-7CF0-A2BA-C458-FDC921EADDD3">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 09:54:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[Unique folder identifier]]></commentInRDBMS>
+<ownerDesignName>EkoTest</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>4497B390-5197-D2D7-D2AE-68E4CD2F1320</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Project" id="07E25914-4016-A68C-45A8-7EE9A669A786">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 09:55:58 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>28</dataTypePrecision>
+<domain>4497B390-5197-D2D7-D2AE-68E4CD2F1320</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="745597B1-F5F2-E098-BD08-919810E7F273" referredColumn="644340F8-87BF-A4BC-6F9B-5E50AF1135F6"/>
+</associations>
+</Column>
+<Column name="ParentFolder" id="46767FE2-02DA-E5E9-9CF1-1DCB315E5D5A">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 09:54:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[Parent folder identification]]></commentInRDBMS>
+<ownerDesignName>EkoTest</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>4497B390-5197-D2D7-D2AE-68E4CD2F1320</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7A1E2595-86BF-2E75-3A39-0C58461B6EA0" referredColumn="040C325F-7CF0-A2BA-C458-FDC921EADDD3"/>
+</associations>
+</Column>
+<Column name="Name" id="CF811BD7-0572-8B0F-7CA3-E58A5BC6B6F9">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 09:54:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[Folder name]]></commentInRDBMS>
+<ownerDesignName>EkoTest</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>358BB364-46D8-E382-12EF-C1289E905498</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Note" id="D484F8FF-1D8A-B01E-D502-9E829726AC69">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 10:38:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[Note text]]></commentInRDBMS>
+<ownerDesignName>EkoTest</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<domain>193E80A9-72FB-2A42-5C26-201BF6D207D7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="424B6406-5A09-6816-2E63-6314150DA5E3" name="Folder_PK">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 09:54:36 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="040C325F-7CF0-A2BA-C458-FDC921EADDD3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E6EDD42B-4CFB-F7C7-6B39-064115188D92" name="Folder_ParentFolder_FK">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 09:54:50 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46767FE2-02DA-E5E9-9CF1-1DCB315E5D5A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4F78C1BD-BCDA-31C4-8040-86A481B1960F" name="Folder_Project_FK">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 09:55:58 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07E25914-4016-A68C-45A8-7EE9A669A786"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

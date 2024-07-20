@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AB021D27-BE04-5972-3A58-A06174AB76FA" schemaObject="8311EF1B-D305-0AB1-B6C1-F1FDDF41FDFB" name="Issue">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 11:10:25 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<ordsAlias>table_18</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Issue" id="AF77E0AD-C169-4AC1-2B63-D1AC427F46F4">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 11:11:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[Issue unique identifer]]></commentInRDBMS>
+<ownerDesignName>EkoTest</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>4497B390-5197-D2D7-D2AE-68E4CD2F1320</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Description" id="AD8E5CD4-9C24-76DC-009D-03DD3AE8BB2A">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 11:11:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[Description of the issue]]></commentInRDBMS>
+<ownerDesignName>EkoTest</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1272B1AF-4E7D-174C-C14A-DBAFBA215838</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Status" id="C932265F-19CD-C43B-B32F-DF670DE88083">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 11:46:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[Satus of the issue, from open to solved]]></commentInRDBMS>
+<ownerDesignName>EkoTest</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>9F944EF4-BD94-5600-7FEE-867E0D1DFE06</domain>
+<listOfValues>
+<valueDef value="0" description="Open"/>
+<valueDef value="1" description="In Progress"/>
+<valueDef value="2" description="Retest"/>
+<valueDef value="3" description="Solved"/>
+<valueDef value="4" description="Skipped"/>
+</listOfValues>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AssignedTo" id="FB0079F0-A930-5924-5229-673C573EBD2E">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 11:47:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[User assigned to complete the test run]]></commentInRDBMS>
+<ownerDesignName>EkoTest</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7C25A873-37A8-B688-0B15-5B829C020177</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A1F63F2D-8CC8-B70E-53B0-B4F1432DC2AC" name="Issue_PK">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 11:11:25 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF77E0AD-C169-4AC1-2B63-D1AC427F46F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

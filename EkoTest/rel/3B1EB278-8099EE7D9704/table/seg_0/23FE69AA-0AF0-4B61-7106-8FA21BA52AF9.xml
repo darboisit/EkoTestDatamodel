@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="23FE69AA-0AF0-4B61-7106-8FA21BA52AF9" schemaObject="8311EF1B-D305-0AB1-B6C1-F1FDDF41FDFB" name="MilestoneType">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 10:17:43 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MilestoneType" id="F311594F-9D32-35EA-C8DC-DE19D93B0214">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 10:18:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[MilestoneType unique identifier]]></commentInRDBMS>
+<ownerDesignName>EkoTest</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>4497B390-5197-D2D7-D2AE-68E4CD2F1320</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Description" id="2F015638-190C-52C6-1E40-71CA3145D62F">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 10:18:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[Short description of the milestone type]]></commentInRDBMS>
+<ownerDesignName>EkoTest</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1272B1AF-4E7D-174C-C14A-DBAFBA215838</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="681981B4-8655-FD58-DC6E-3A34E2672DB4" name="MilestoneType_PK">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 10:18:50 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F311594F-9D32-35EA-C8DC-DE19D93B0214"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

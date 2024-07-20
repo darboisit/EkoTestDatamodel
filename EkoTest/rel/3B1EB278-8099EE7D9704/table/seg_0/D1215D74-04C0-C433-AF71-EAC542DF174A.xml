@@ -1,0 +1,170 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D1215D74-04C0-C433-AF71-EAC542DF174A" schemaObject="8311EF1B-D305-0AB1-B6C1-F1FDDF41FDFB" name="Attachment">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 10:41:25 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Attachment" id="8CEA65C5-01BF-47AE-3483-7685AA06F177">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 10:42:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[TestCaseAttachment unique identifier]]></commentInRDBMS>
+<ownerDesignName>EkoTest</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<domain>64BEEBB7-114A-9015-A9F8-899BA26C7A43</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TestCase" id="1D181B90-F8FF-F62B-B879-18B7B8C892A2">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 10:42:12 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>4497B390-5197-D2D7-D2AE-68E4CD2F1320</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C8161202-CBDA-5164-6F2C-51C50E6E2164" referredColumn="40F742FF-BFE3-6587-CE5B-6749FFCCD9FB"/>
+</associations>
+</Column>
+<Column name="Step" id="1372A5ED-F4A0-2CC3-63EE-F3F0B1DD90D3">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 11:02:33 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>4497B390-5197-D2D7-D2AE-68E4CD2F1320</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="46B1E906-2163-9549-1ABB-08711DD7D225" referredColumn="B29C9A97-65E2-1100-C7E8-691EEC0C2B8D"/>
+</associations>
+</Column>
+<Column name="StepRun" id="20D80DEB-8E72-DF44-A1E9-B0AD41940DE5">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 11:08:06 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>4497B390-5197-D2D7-D2AE-68E4CD2F1320</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="368474ED-C8B0-649E-2D6F-CA7A0A421F95" referredColumn="53D2BDA1-F5DF-A133-C0FF-3CE1FDB375E8"/>
+</associations>
+</Column>
+<Column name="MIMEType" id="CED65BC0-064C-F6DB-B5CC-BE596FB03ACF">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 11:00:02 UTC</createdTime>
+<commentInRDBMS><![CDATA[MIME type for the attachment file]]></commentInRDBMS>
+<ownerDesignName>EkoTest</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1272B1AF-4E7D-174C-C14A-DBAFBA215838</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FileName" id="5686CD28-67BB-751E-AC33-EEA196D8FAFF">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 11:00:46 UTC</createdTime>
+<commentInRDBMS><![CDATA[Attachment file name]]></commentInRDBMS>
+<ownerDesignName>EkoTest</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>358BB364-46D8-E382-12EF-C1289E905498</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Description" id="2646A007-7A30-2DBA-AD0A-162CC49AF8A4">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 10:59:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[Description of the attachment]]></commentInRDBMS>
+<ownerDesignName>EkoTest</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>1272B1AF-4E7D-174C-C14A-DBAFBA215838</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FileObject" id="6B5C3E88-0BAD-4D38-107A-2B5FA8A6F427">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 10:59:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[Attachment file object]]></commentInRDBMS>
+<ownerDesignName>EkoTest</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<domain>01D2DEBE-4ED7-A4B4-50D6-143C70E9445B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="StepRunAttachment" id="62321907-811A-1609-6B8C-2DC2F9FB88FE">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 11:03:06 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>4497B390-5197-D2D7-D2AE-68E4CD2F1320</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="926DB778-F6A3-FD27-027C-3F4ED233184D" name="Attachment_PK">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 10:42:07 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8CEA65C5-01BF-47AE-3483-7685AA06F177"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BF53B679-1617-A3B8-2D87-F9D44A4DD53E" name="Attachment_TestCase_FK">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 10:42:12 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D181B90-F8FF-F62B-B879-18B7B8C892A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D843D93D-D02B-120A-399F-D487CC38C20E" name="Attachment_Step_FK">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 11:02:33 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1372A5ED-F4A0-2CC3-63EE-F3F0B1DD90D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="04D367F7-3726-BCA6-34C5-442AB0E69658" name="Attachment_StepRun_FK">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 11:08:06 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20D80DEB-8E72-DF44-A1E9-B0AD41940DE5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="966B7EEA-DABF-A5F1-6D60-7FAE326AAE7F" containerWithKeyObject="959A0D44-54AA-A1E1-5C2F-8B380216706A" localFKIndex="84432F0D-5DF9-708A-37CA-EB8EADC30B70" name="Milestone_MilestoneType_FK">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 10:19:24 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<referredTableLongName>EKOTEST.MilestoneType</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>23FE69AA-0AF0-4B61-7106-8FA21BA52AF9</referredTableID>
+<keyObject>681981B4-8655-FD58-DC6E-3A34E2672DB4</keyObject>
+<referredKeyID>681981B4-8655-FD58-DC6E-3A34E2672DB4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>MilestoneType</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

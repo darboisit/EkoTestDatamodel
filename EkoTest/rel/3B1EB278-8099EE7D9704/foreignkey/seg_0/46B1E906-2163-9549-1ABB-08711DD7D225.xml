@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="46B1E906-2163-9549-1ABB-08711DD7D225" containerWithKeyObject="D1215D74-04C0-C433-AF71-EAC542DF174A" localFKIndex="D843D93D-D02B-120A-399F-D487CC38C20E" name="Attachment_Step_FK">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 11:02:33 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<referredTableLongName>EKOTEST.Step</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3E429605-E7A5-1E59-76E1-4E0012D9DEAF</referredTableID>
+<keyObject>14BA30E7-C627-6164-CAE7-913044005DD1</keyObject>
+<referredKeyID>14BA30E7-C627-6164-CAE7-913044005DD1</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>Step</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

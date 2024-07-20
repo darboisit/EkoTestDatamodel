@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="70657471-9DF4-4D41-0C8E-F359437660DA" containerWithKeyObject="27D39DF0-12D8-18E7-8E8E-2ECD3DB9AAF4" localFKIndex="3FF608D6-816C-DFA5-EDA7-3299442BF2B5" name="Log_TestCaseRun_FK">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 11:19:04 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<referredTableLongName>EKOTEST.TestCaseRun</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A5F46782-161F-E52F-4D25-90D4AC7B20E4</referredTableID>
+<keyObject>BE99F593-2D49-EFBA-26C8-3CB04218004A</keyObject>
+<referredKeyID>BE99F593-2D49-EFBA-26C8-3CB04218004A</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>TestCaseRun</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

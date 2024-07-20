@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="959A0D44-54AA-A1E1-5C2F-8B380216706A" name="Milestone">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="959A0D44-54AA-A1E1-5C2F-8B380216706A" schemaObject="8311EF1B-D305-0AB1-B6C1-F1FDDF41FDFB" name="Milestone">
 <createdBy>darbo</createdBy>
 <createdTime>2024-06-28 14:04:45 UTC</createdTime>
 <ownerDesignName>EkoTest</ownerDesignName>
@@ -7,4 +7,127 @@
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Milestone" id="6D944ACB-C49E-3278-D1D3-F120D44EC353">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 09:11:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Milestone unique identifier]]></commentInRDBMS>
+<ownerDesignName>EkoTest</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>4497B390-5197-D2D7-D2AE-68E4CD2F1320</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Project" id="81F5BE6E-95CE-E5F7-4482-E010A6A0434A">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 09:49:17 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypePrecision>28</dataTypePrecision>
+<domain>4497B390-5197-D2D7-D2AE-68E4CD2F1320</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="43959AC4-475A-E64B-37A1-B010FDFC41D4" referredColumn="644340F8-87BF-A4BC-6F9B-5E50AF1135F6"/>
+</associations>
+</Column>
+<Column name="MilestoneType" id="AF84BF5E-924B-F364-87C0-4ED0862C4F47">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 10:19:24 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>4497B390-5197-D2D7-D2AE-68E4CD2F1320</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="966B7EEA-DABF-A5F1-6D60-7FAE326AAE7F" referredColumn="F311594F-9D32-35EA-C8DC-DE19D93B0214"/>
+</associations>
+</Column>
+<Column name="Title" id="203328C7-0E28-152A-5FB2-7E1E904F851C">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 09:36:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[Milestone title]]></commentInRDBMS>
+<ownerDesignName>EkoTest</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>85E28724-D1D4-F9D5-E752-17ABB059D865</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Summary" id="18D7BEB8-E7DB-2978-B714-2400499B7057">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 09:37:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[Long description about the objectives and impact of the milestone]]></commentInRDBMS>
+<ownerDesignName>EkoTest</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<domain>193E80A9-72FB-2A42-5C26-201BF6D207D7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DueDate" id="1026D260-CDD5-AB03-8EE7-991A22E0C730">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 09:38:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[Date the milestone is estimated to be completed]]></commentInRDBMS>
+<ownerDesignName>EkoTest</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>75D99DE6-2478-5EA7-D333-2A475A095DE7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EndDate" id="F8D417FF-CF88-14D2-391F-689BEE833EB5">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 09:38:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[Date the milestone was effectively completed]]></commentInRDBMS>
+<ownerDesignName>EkoTest</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>75D99DE6-2478-5EA7-D333-2A475A095DE7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DE3A1E64-038C-8AF3-FAB9-F066601E0FAF" name="Milestone_PK">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 09:11:12 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D944ACB-C49E-3278-D1D3-F120D44EC353"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DA47E7A0-338C-06CD-AFC1-D54045F9D152" name="Milestone_Project_FK">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 09:49:17 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="81F5BE6E-95CE-E5F7-4482-E010A6A0434A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="84432F0D-5DF9-708A-37CA-EB8EADC30B70" name="Milestone_MilestoneType_FK">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 10:19:24 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF84BF5E-924B-F364-87C0-4ED0862C4F47"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
 </Table>

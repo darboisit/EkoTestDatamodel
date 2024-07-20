@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EE8F429B-A49C-5E8F-42EE-9E848A03840E" containerWithKeyObject="B3525766-4711-B63A-9798-6BBB2A68FC0B" localFKIndex="DFFBF3DB-ADEA-C836-98B5-82BB7CD35F08" name="Run_Project_FK">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 09:51:26 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<referredTableLongName>EKOTEST.Project</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>33BD78A9-7410-22AB-C764-051A4A64270C</referredTableID>
+<keyObject>935D2B38-2E3A-B247-04D5-EE20737D03EC</keyObject>
+<referredKeyID>935D2B38-2E3A-B247-04D5-EE20737D03EC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Project</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

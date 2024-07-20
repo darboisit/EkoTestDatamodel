@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3DA94183-9FAD-AFAF-CFFA-28233229EBA7" containerWithKeyObject="06ED14AA-38AC-D418-74F0-791E12E8A8AC" localFKIndex="38A0FB7F-2914-656D-C2BC-EB0BBA80290D" name="StepRunIssue_StepRun_FK">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 11:12:22 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<referredTableLongName>EKOTEST.StepRun</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0149B5D3-079B-3F78-F958-F537801FAEF4</referredTableID>
+<keyObject>4A5DDFF9-68E7-7547-30AF-273BB257E3F8</keyObject>
+<referredKeyID>4A5DDFF9-68E7-7547-30AF-273BB257E3F8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>StepRun</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

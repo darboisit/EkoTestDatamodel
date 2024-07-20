@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="91A600BC-A890-E434-B199-5D2620BB82CA" schemaObject="8311EF1B-D305-0AB1-B6C1-F1FDDF41FDFB" name="TestCase">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 10:13:52 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TestCase" id="40F742FF-BFE3-6587-CE5B-6749FFCCD9FB">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 10:14:24 UTC</createdTime>
+<commentInRDBMS><![CDATA[TestCase unique identifier]]></commentInRDBMS>
+<ownerDesignName>EkoTest</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>4497B390-5197-D2D7-D2AE-68E4CD2F1320</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Folder" id="A4A56086-A042-8B01-6FD0-E5612046852C">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 10:15:38 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>4497B390-5197-D2D7-D2AE-68E4CD2F1320</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6B89624E-3A07-A905-B93F-FAFDDFE2FF99" referredColumn="040C325F-7CF0-A2BA-C458-FDC921EADDD3"/>
+</associations>
+</Column>
+<Column name="Title" id="9A2E86F8-3714-79F1-C940-A4AA045E1BAF">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 10:15:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[Test case title]]></commentInRDBMS>
+<ownerDesignName>EkoTest</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>85E28724-D1D4-F9D5-E752-17ABB059D865</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Description" id="A94A320D-8AA9-3608-4D1A-C73BE5687EC3">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 10:43:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Long description of the objectives and intentions of the test case]]></commentInRDBMS>
+<ownerDesignName>EkoTest</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LogDes-4BABEC65-108B-2A3C-F7C4-84AC47D292B0@LOGDT10040</logicalDatatype>
+<domain>193E80A9-72FB-2A42-5C26-201BF6D207D7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Priority" id="EDBBCA34-3E69-D45F-4E9E-698F4AF05CC0">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 10:20:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[Priority of the test case, from normal to urgent]]></commentInRDBMS>
+<ownerDesignName>EkoTest</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>9F944EF4-BD94-5600-7FEE-867E0D1DFE06</domain>
+<listOfValues>
+<valueDef value="0" description="Normal"/>
+<valueDef value="1" description="Low"/>
+<valueDef value="2" description="Medium"/>
+<valueDef value="3" description="High"/>
+<valueDef value="4" description="Urgent"/>
+</listOfValues>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IsActive" id="DBEF03DB-6998-4626-47E2-921BA74085A4">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 10:40:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[Indicates if the test case ia active for new runs]]></commentInRDBMS>
+<ownerDesignName>EkoTest</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<domain>64BEEBB7-114A-9015-A9F8-899BA26C7A43</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9EBC5486-DD62-6152-1C16-85EBB5AB0192" name="TestCase_PK">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 10:14:24 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="40F742FF-BFE3-6587-CE5B-6749FFCCD9FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5C1D4917-FFC0-FDD0-B86C-1DCB55F39A58" name="TestCase_Folder_FK">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 10:15:38 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A4A56086-A042-8B01-6FD0-E5612046852C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
