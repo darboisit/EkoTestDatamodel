@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="MilestoneType" directorySegmentName="seg_0" id="23FE69AA-0AF0-4B61-7106-8FA21BA52AF9">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 12:57:38 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<schemaObject>8311EF1B-D305-0AB1-B6C1-F1FDDF41FDFB</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<user>8302D07F-8ED5-253F-33DC-0D22863BEFAE</user>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Description" id="2F015638-190C-52C6-1E40-71CA3145D62F">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 12:57:38 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MilestoneType" id="F311594F-9D32-35EA-C8DC-DE19D93B0214">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 12:57:38 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<synonyms>
+<Synonym class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SynonymOraclev10g" name="MilestoneType" id="81946779-6D0E-F566-D749-34A6436E89AE">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 13:03:55 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<objectName>MilestoneType</objectName>
+<objectUser>11E53CE2-D779-5CA3-8F18-4724D526A590</objectUser>
+<user>8302D07F-8ED5-253F-33DC-0D22863BEFAE</user>
+<referredObjectID>23FE69AA-0AF0-4B61-7106-8FA21BA52AF9</referredObjectID>
+</Synonym>
+</synonyms>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="MilestoneType_PK" id="681981B4-8655-FD58-DC6E-3A34E2672DB4">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 12:57:38 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

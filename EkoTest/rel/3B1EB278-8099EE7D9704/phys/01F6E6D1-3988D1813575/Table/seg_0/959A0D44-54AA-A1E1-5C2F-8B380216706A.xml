@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="Milestone" directorySegmentName="seg_0" id="959A0D44-54AA-A1E1-5C2F-8B380216706A">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 12:57:38 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<schemaObject>8311EF1B-D305-0AB1-B6C1-F1FDDF41FDFB</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<user>8302D07F-8ED5-253F-33DC-0D22863BEFAE</user>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DueDate" id="1026D260-CDD5-AB03-8EE7-991A22E0C730">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 12:57:38 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Summary" id="18D7BEB8-E7DB-2978-B714-2400499B7057">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 12:57:38 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Title" id="203328C7-0E28-152A-5FB2-7E1E904F851C">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 12:57:38 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Milestone" id="6D944ACB-C49E-3278-D1D3-F120D44EC353">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 12:57:38 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Project" id="81F5BE6E-95CE-E5F7-4482-E010A6A0434A">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 12:57:38 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MilestoneType" id="AF84BF5E-924B-F364-87C0-4ED0862C4F47">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 12:57:38 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EndDate" id="F8D417FF-CF88-14D2-391F-689BEE833EB5">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 12:57:38 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<synonyms>
+<Synonym class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SynonymOraclev10g" name="Milestone" id="865C5E36-8BBE-AD7C-A142-0D9A74AA2182">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 13:03:43 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<objectName>Milestone</objectName>
+<objectUser>11E53CE2-D779-5CA3-8F18-4724D526A590</objectUser>
+<user>8302D07F-8ED5-253F-33DC-0D22863BEFAE</user>
+<referredObjectID>959A0D44-54AA-A1E1-5C2F-8B380216706A</referredObjectID>
+</Synonym>
+</synonyms>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Milestone_MilestoneType_FK" id="84432F0D-5DF9-708A-37CA-EB8EADC30B70">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 12:57:38 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Milestone_Project_FK" id="DA47E7A0-338C-06CD-AFC1-D54045F9D152">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 12:57:38 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Milestone_PK" id="DE3A1E64-038C-8AF3-FAB9-F066601E0FAF">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 12:57:38 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

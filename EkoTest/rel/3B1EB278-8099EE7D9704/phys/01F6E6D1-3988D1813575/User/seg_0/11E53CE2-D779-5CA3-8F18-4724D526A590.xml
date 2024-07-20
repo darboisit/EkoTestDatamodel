@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="EKOTEST" directorySegmentName="seg_0" id="11E53CE2-D779-5CA3-8F18-4724D526A590">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 12:58:28 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<schemaObject>8311EF1B-D305-0AB1-B6C1-F1FDDF41FDFB</schemaObject>
+<identifier>05C1D681AAE8E8D0EA8F11702340440DF0</identifier>
+<permissions>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions1" id="ACDF87D3-6231-F1D1-1AC2-FFA09CDA5577">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 12:59:54 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<privileges>DELETE, INSERT, SELECT, UPDATE, ALL PRIVILEGES</privileges>
+<table>D1215D74-04C0-C433-AF71-EAC542DF174A</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions1" id="3988E80F-230F-7563-2CDF-15095C1D6C89">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 12:59:54 UTC</createdTime>
+<generatorID>ACDF87D3-6231-F1D1-1AC2-FFA09CDA5577</generatorID>
+<ownerDesignName>EkoTest</ownerDesignName>
+<privileges>DELETE, INSERT, SELECT, UPDATE, ALL PRIVILEGES</privileges>
+<table>84192687-C110-C212-957E-F98AAD2D0DA1</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions1" id="6CC59BD0-B850-B8B3-C596-73310D8F5B3F">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 12:59:54 UTC</createdTime>
+<generatorID>ACDF87D3-6231-F1D1-1AC2-FFA09CDA5577</generatorID>
+<ownerDesignName>EkoTest</ownerDesignName>
+<privileges>DELETE, INSERT, SELECT, UPDATE, ALL PRIVILEGES</privileges>
+<table>AB021D27-BE04-5972-3A58-A06174AB76FA</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions1" id="397BCD2B-E14F-7354-0B28-41AC21D22589">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 12:59:54 UTC</createdTime>
+<generatorID>ACDF87D3-6231-F1D1-1AC2-FFA09CDA5577</generatorID>
+<ownerDesignName>EkoTest</ownerDesignName>
+<privileges>DELETE, INSERT, SELECT, UPDATE, ALL PRIVILEGES</privileges>
+<table>27D39DF0-12D8-18E7-8E8E-2ECD3DB9AAF4</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions1" id="9AE84E2A-879E-E621-D8D4-207B12421B5B">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 12:59:54 UTC</createdTime>
+<generatorID>ACDF87D3-6231-F1D1-1AC2-FFA09CDA5577</generatorID>
+<ownerDesignName>EkoTest</ownerDesignName>
+<privileges>DELETE, INSERT, SELECT, UPDATE, ALL PRIVILEGES</privileges>
+<table>959A0D44-54AA-A1E1-5C2F-8B380216706A</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions1" id="45BDEDA8-45DB-A624-C023-6DABD9A5BFF8">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 12:59:54 UTC</createdTime>
+<generatorID>ACDF87D3-6231-F1D1-1AC2-FFA09CDA5577</generatorID>
+<ownerDesignName>EkoTest</ownerDesignName>
+<privileges>DELETE, INSERT, SELECT, UPDATE, ALL PRIVILEGES</privileges>
+<table>23FE69AA-0AF0-4B61-7106-8FA21BA52AF9</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions1" id="6586EA57-F085-AB56-D195-5A690970AABF">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 12:59:54 UTC</createdTime>
+<generatorID>ACDF87D3-6231-F1D1-1AC2-FFA09CDA5577</generatorID>
+<ownerDesignName>EkoTest</ownerDesignName>
+<privileges>DELETE, INSERT, SELECT, UPDATE, ALL PRIVILEGES</privileges>
+<table>382B89E7-B393-90FF-CF6F-1F3F5216BB6C</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions1" id="AE94FE6A-104D-BAD6-A239-21191AE10858">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 12:59:54 UTC</createdTime>
+<generatorID>ACDF87D3-6231-F1D1-1AC2-FFA09CDA5577</generatorID>
+<ownerDesignName>EkoTest</ownerDesignName>
+<privileges>DELETE, INSERT, SELECT, UPDATE, ALL PRIVILEGES</privileges>
+<table>33BD78A9-7410-22AB-C764-051A4A64270C</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions1" id="3B5BF0DB-9D0D-A07C-6B72-333879E9E825">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 12:59:54 UTC</createdTime>
+<generatorID>ACDF87D3-6231-F1D1-1AC2-FFA09CDA5577</generatorID>
+<ownerDesignName>EkoTest</ownerDesignName>
+<privileges>DELETE, INSERT, SELECT, UPDATE, ALL PRIVILEGES</privileges>
+<table>B3525766-4711-B63A-9798-6BBB2A68FC0B</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions1" id="8D9DC8A3-E605-1A44-2BF4-41DF4B4F5390">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 12:59:54 UTC</createdTime>
+<generatorID>ACDF87D3-6231-F1D1-1AC2-FFA09CDA5577</generatorID>
+<ownerDesignName>EkoTest</ownerDesignName>
+<privileges>DELETE, INSERT, SELECT, UPDATE, ALL PRIVILEGES</privileges>
+<table>3E429605-E7A5-1E59-76E1-4E0012D9DEAF</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions1" id="179A5446-CDA3-CFFC-7F5A-1341712EE9A8">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 12:59:54 UTC</createdTime>
+<generatorID>ACDF87D3-6231-F1D1-1AC2-FFA09CDA5577</generatorID>
+<ownerDesignName>EkoTest</ownerDesignName>
+<privileges>DELETE, INSERT, SELECT, UPDATE, ALL PRIVILEGES</privileges>
+<table>0149B5D3-079B-3F78-F958-F537801FAEF4</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions1" id="AF8710A4-BB65-5208-3B84-F38C82A83BE0">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 12:59:54 UTC</createdTime>
+<generatorID>ACDF87D3-6231-F1D1-1AC2-FFA09CDA5577</generatorID>
+<ownerDesignName>EkoTest</ownerDesignName>
+<privileges>DELETE, INSERT, SELECT, UPDATE, ALL PRIVILEGES</privileges>
+<table>06ED14AA-38AC-D418-74F0-791E12E8A8AC</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions1" id="64BCF419-602E-2C46-2781-FE48017BA3A3">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 12:59:54 UTC</createdTime>
+<generatorID>ACDF87D3-6231-F1D1-1AC2-FFA09CDA5577</generatorID>
+<ownerDesignName>EkoTest</ownerDesignName>
+<privileges>DELETE, INSERT, SELECT, UPDATE, ALL PRIVILEGES</privileges>
+<table>91A600BC-A890-E434-B199-5D2620BB82CA</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions1" id="2C14B6C9-E6A1-E5F4-D4F7-499F55B5B4C1">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 12:59:54 UTC</createdTime>
+<generatorID>ACDF87D3-6231-F1D1-1AC2-FFA09CDA5577</generatorID>
+<ownerDesignName>EkoTest</ownerDesignName>
+<privileges>DELETE, INSERT, SELECT, UPDATE, ALL PRIVILEGES</privileges>
+<table>A5F46782-161F-E52F-4D25-90D4AC7B20E4</table>
+</Permission>
+</permissions>
+</UserOraclev10g>

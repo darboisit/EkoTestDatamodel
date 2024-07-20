@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="TestCase" directorySegmentName="seg_0" id="91A600BC-A890-E434-B199-5D2620BB82CA">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 12:57:38 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<schemaObject>8311EF1B-D305-0AB1-B6C1-F1FDDF41FDFB</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<user>8302D07F-8ED5-253F-33DC-0D22863BEFAE</user>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="TestCase" id="40F742FF-BFE3-6587-CE5B-6749FFCCD9FB">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 12:57:38 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Title" id="9A2E86F8-3714-79F1-C940-A4AA045E1BAF">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 12:57:38 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Folder" id="A4A56086-A042-8B01-6FD0-E5612046852C">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 12:57:38 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Description" id="A94A320D-8AA9-3608-4D1A-C73BE5687EC3">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 12:57:38 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IsActive" id="DBEF03DB-6998-4626-47E2-921BA74085A4">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 12:57:38 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Priority" id="EDBBCA34-3E69-D45F-4E9E-698F4AF05CC0">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 12:57:38 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+</columnProxies>
+<synonyms>
+<Synonym class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SynonymOraclev10g" name="TestCase" id="D8E6CC89-5462-F261-ECC0-0C36379ADC35">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 13:05:54 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<objectName>TestCase</objectName>
+<objectUser>11E53CE2-D779-5CA3-8F18-4724D526A590</objectUser>
+<user>8302D07F-8ED5-253F-33DC-0D22863BEFAE</user>
+<referredObjectID>91A600BC-A890-E434-B199-5D2620BB82CA</referredObjectID>
+</Synonym>
+</synonyms>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="TestCase_Folder_FK" id="5C1D4917-FFC0-FDD0-B86C-1DCB55F39A58">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 12:57:38 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TestCase_PK" id="9EBC5486-DD62-6152-1C16-85EBB5AB0192">
+<createdBy>darbo</createdBy>
+<createdTime>2024-07-20 12:57:38 UTC</createdTime>
+<ownerDesignName>EkoTest</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>
